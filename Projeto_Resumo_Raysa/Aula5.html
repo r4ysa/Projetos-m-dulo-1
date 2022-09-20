@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body style="background-color: rgb(190, 190, 190);">
+
+    <div class="header">
+        <h1>Programadores Cariocas</h1>
+    </div>
+
+    <div id="menu">
+        <ul id="navegacao">
+            <li><a href="sobre.html">Sobre o curso</a></li>
+            <li><a href="modulo1.html">Front-end</a></li>
+            <li><a href="#">Orientação a objeto</a></li>
+            <li><a href="#">React</a></li>
+            <li><a href="#">Banco de dados</a></li>
+            <li><a href="#">Server-side/back-end</a></li>
+            <li><a href="https://www.rj.senac.br/cursos/administracao-e-gestao/unidade-senac-iraja,senac-bonsucesso/">Contato</a></li>
+            <li><a href="https://aluno.resilia.work/sign-in">Resilia</a></li>
+        </ul>
+    </div>
+
+    <br><br><br><br>
+
+    <div id="container">
+        <div class="bloco1">
+            <div id="vertical">
+                <ul>
+                    <li><a href="Aula1.html">Aula 1</a></li>
+                    <li><a href="Aula3.html">Aula 3</a></li>
+                    <li><a href="Aula5.html">Aula 5</a></li>
+                    <li><a href="Aula6.html">Aula 6</a></li>
+                    <li><a href="Aula8.html">Aula 8</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bloco2">
+            <h2>Aula 5</h2><br>
+
+            <p>Objetivo: Aprendizagem com Flexbox e display. </p><br>
+
+            <img src="imagens/flexboox.png" alt="flexbx"> <br>
+
+            <h3>O que é flexbox?</h3> 
+
+            <p>O Flexible Box Module, geralmente chamado de flexbox, foi projetado tanto como um modelo de layout unidimensional quanto como um método capaz de organizar espacialmente os elementos em uma interface, além de possuir capacidades avançadas de alinhamento. </p> <br>
+
+            <h3>Propriedade Display</h3> 
+
+            <p>A propriedade CSS display especifica o tipo de caixa de renderização usada por um elemento. No HTML, os valores padrões da propriedade display são feitas a partir do comportamento descrito nas especificações HTML ou da folha de estilo padrão do navegador/usuário. O valor padrão em XML é inline. </p> <br>
+
+            <p>O ideal no Flexbox é criar uma div(geralmente nomeada como container), e nele terão os itens, os quais poderemos delocar utilizando algumas propriedades no CSS. Em resumo, a ideia é como na imagem abaixo</p> <br>
+
+            <img src="imagens/flex-geral.jpg" alt="flexbox"> <br>
+
+            <p>O Flexbox é um módulo completo e não uma única propriedade; algumas delas devem ser declaradas no container (o elemento-pai, que chamamos de flex container), enquanto outras devem ser declaradas nos elementos-filhos (os flex itens). <br><br>
+
+            Quando utilizamos o Flexbox, é muito importante saber quais propriedades são declaradas no elemento-pai (por exemplo, uma div que irá conter os elementos a serem alinhados) e quais serão declaradas nos elementos-filhos. No elemento pai podemos declarar o display, flex-direction, flex-wrap, flex-flow, justify-content, align-itens e align-content. No elemento filho pode-se utilizar order, flex-grow, flex-shrink, flex-basics, flex e align-self. <br><br>
+
+            Alguns links úteis para facilitar o seu aprendizado: <a href="https://www.w3schools.com/csS/css3_flexbox.asp">FlexBox no W3Schols</a> e no <a href="https://www.alura.com.br/artigos/css-guia-do-flexbox">Alura</a>.
+            </p> <br>
+
+            <h3><strong>Código de exemplo:</strong></h3> <br>
+
+            <img style="max-width: 600px;" src="imagens/cod-flex.png" alt="cod-flexbox"> <br>
+
+            <h3><strong>Resultado na página Web</strong></h3> <br>
+
+            <img style="max-width: 600px;" src="imagens/resultado-flex.png" alt="resultado-flexbox"> <br>
+
+            <p>A partir do exemplo acima, foi possível observar como é possível deslocar os itens através das propriedades. Geralmente toda página web possui essas divisões para facilitar o código e ampliar o design, uma vez que fica mais organizado e específico.</p> <br>
+
+            <p>Para entender melhor o que faz a propriedade display, é preciso lembrar que existem dois tipos de elementos HTML. <strong>O elemento em bloco ou block ocupa 100% da largura disponível</strong> e para ele é sempre iniciado em uma nova linha. Um exemplo são os títulos, divs e parágrafos nos quais, mesmo se os seus conteúdos forem o de apenas uma palavra, toda a linha correspondente deverá ser reservada a cada elemento. <br><br>
+
+            <strong>Já os elementos em linha ou inline ocupam apenas o espaço necessário para exibir o seu conteúdo</strong>. Por exemplo: imagens, links, entre outros. A propriedade display permite modificar a forma como esses elementos são renderizados. Dessa forma, podemos organizá-los de diferentes maneiras na página HTML.</p> <br>
+
+            Alguns link úteis para facilitar o seu aprendizado: Display no <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/display">MDN</a> e no <a href="https://www.w3schools.com/cssref/pr_class_display.asp">W3Schools</a>
+
+            <h3><strong>Código de exemplo:</strong></h3> <br>
+
+            <img style="max-width: 600px;" src="imagens/cod-display.png" alt="cod-display"> <br>
+
+            <h3><strong>Resultado na página Web</strong></h3> <br>
+
+            <img style="max-width: 600px;" src="imagens/resultado-display.png" alt="resultado-display"> <br>
+
+            <p>Além dos muitos tipos diferentes de exibição de caixa, o valor none permite desativar a exibição de um elemento; quando você usa none, todos os elementos descendentes também tem a sua exibição desativada. O documento é renderizado como se o elemento não existisse na árvore do documento.</p> <br><br>
+
+            Chegamos ao fim da quinta aula do curso e terceira aula de tech, foram muitas informações mas calma que no fim tudo fará sentido. O segredo é praticar. <br><br>
+
+            <strong>Bons estudos!</strong>   
+        </div>
+    </div>
+
+    <br><br>
+
+    <footer>
+        <p>Autor: Programadores Cariocas<br>
+        <a href="email:programadorescariocas@gmail.com">programadorescariocas@gmail.com</a></p>
+    </footer>
+    
+</body>
+</html>

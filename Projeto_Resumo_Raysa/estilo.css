@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-size: 250%;
+    padding: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.introducao{
+    text-align: center;
+}
+.header{
+    background-image: linear-gradient(95deg, #bf90f2 0, #8f6cd8 50%, #594bbf 100%);
+}
+/*menu horizontal*/
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menu ul{
+    background:  #274bbd 100%;
+    float: left;
+    width: 100%;
+}
+/*elementos da lista*/
+#menu ul li{
+    float: left;
+}
+#menu ul a{
+    font-size: 17px;
+    display: block;
+    padding: 0.5em 2.1em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*mudança de cor ao passar o mouse por cima*/
+#menu ul a:hover{    
+    color: black;
+    background: #8f6cd8 50%;
+}
+.inicio{
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    height: 550px;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+.inicio img {
+    max-width:600px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+}
+#vertical ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /*remove os pontos da lista*/
+}
+/*menu vertical*/
+#vertical ul a{
+    height: 40px;
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    line-height: 40px; /*line-heigth segue o valor da altura calculando o centro*/
+    text-indent: 40px; /*Aqui é se deseja deslocar o texto que está na imagem*/
+    background: url(imagens/menu.png) no-repeat left bottom; /*os dois pontos são para sair da pasta css*/
+}
+#vertical a:hover{
+    color: white;
+    background-position: right bottom;
+}
+.bloco2 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bloco2 img{
+    max-width: 400px;
+    width: auto;
+    display: block;
+}
+.bloco2 h2{
+    font-size: 28px;
+    text-align: center;
+}
+.bloco2 h3{
+    font-size: 22px;
+}
+/*responsividade*/
+.bloco1 {
+    float: left;
+    width: 25%;
+    padding: 25px;
+  }
+.bloco2 {
+    float: left;
+    width: 80%;
+    padding: 40px;
+    background-color: white; 
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5); 
+    width:50%;
+  }
+/* Limpa o fluxo depois das colunas */
+#container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .bloco {
+      width: 100%;
+    }
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background: #274bbd 100%;
+    color: black;
+}

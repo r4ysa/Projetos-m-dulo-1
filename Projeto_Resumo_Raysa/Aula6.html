@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body style="background-color: rgb(190, 190, 190);">
+
+    <div class="header">
+        <h1>Programadores Cariocas</h1>
+    </div>
+
+    <div id="menu">
+        <ul id="navegacao">
+            <li><a href="sobre.html">Sobre o curso</a></li>
+            <li><a href="modulo1.html">Front-end</a></li>
+            <li><a href="#">Orientação a objeto</a></li>
+            <li><a href="#">React</a></li>
+            <li><a href="#">Banco de dados</a></li>
+            <li><a href="#">Server-side/back-end</a></li>
+            <li><a href="https://www.rj.senac.br/cursos/administracao-e-gestao/unidade-senac-iraja,senac-bonsucesso/">Contato</a></li>
+            <li><a href="https://aluno.resilia.work/sign-in">Resilia</a></li>
+        </ul>
+    </div>
+
+    <br><br><br><br>
+
+    <div id="container">
+        <div class="bloco1">
+            <div id="vertical">
+                <ul>
+                    <li><a href="Aula1.html">Aula 1</a></li>
+                    <li><a href="Aula3.html">Aula 3</a></li>
+                    <li><a href="Aula5.html">Aula 5</a></li>
+                    <li><a href="Aula6.html">Aula 6</a></li>
+                    <li><a href="Aula8.html">Aula 8</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bloco2">
+            <h2>Aula 6</h2><br>
+
+            <p>Objetivo: Aprendizagem de Menus, estilos de links, media query e responsividade. </p><br>
+
+            <p>Manipulando algumas propriedades do CSS, podemos modificar links clicáveis no site, criar listas que mudam de cor ao passar o mouse por cima(propriedade hover) e criar uma responsividade.</p><br>
+
+            <h3>Modificando links</h3> <br>
+
+            <p>Para modificar um link nunca visitado, basta utilizar link:a e definiir as novas cores desejadas. Ja para um link nunca visitado, será link:visited depois basta novamente escolher o novo estilo para o link. Para mudar ambos é só definir apenas a tag a. <br><br>
+
+            A propriedade hover é somente para animação, por exemplo a mudança de cor quando passamos o mouse por cima. Para usar é só digitar a:hover e assim definir como você quer a sua animação, especificamente para aquele link. Segue abaixo um exemplo de código.</p> <br>
+
+            <img src="imagens/link.png" alt="link"> <br>
+
+            <h3>No CSS externo:</h3> <br>
+
+            <img src="imagens/css-link.png" alt="css-link"><br>
+
+            <p>Observando os comentários nos códigos acima já dá para entender que foi criado uma lista de links modificados. O links visitados e nunca visitados terão letra branca e fundo vermelho(olhando o a:link e a:visited no CSS). Terão também fontes, bordas e espaçamentos específicos (olhando o a no CSS). Passando o mouse por cima dos links, a cor da fonte será preta e possuirá um fundo laranja. Veja só o resultado: </p> <br>
+
+            <img src="imagens/resultado-link.png" alt="resultado-link"><br>
+
+            <h3>Menus horizontais e verticais</h3> <br>
+
+            <p>Baseando no que já foi explicado acima, podemos criar menus com animações que darão um novo design moderno à página web do seu site. Para fazer isto é simples, basta criar a tag ul e dentro dela os items serão os links que iremos modificar no CSS. Segue abaixo um exemplo utilizando um menu horizontal. </p><br>
+
+            <img src="imagens/menu-horizontal.png" alt="menu-horizontal"> <br>
+
+            <h3>No CSS externo:</h3> <br>
+
+            <img src="imagens/css-menu-horizontal.png" alt="css-menu-horizontal"><br>
+
+            <p>Observando o CSS externo, podemos ver o estilo da lista, do item da lista, do link e como ficará ao passar o mouse por cima. Veja o resultado:</p>
+
+            <img src="imagens/resultado-menu-horizontal.png" alt="resultado-menu-horizontal"><br>
+
+            <p>No menu vertical serão os mesmo procedimentos, porém iremos utilizar a propriedade display:block para que os items fica abaixo um do outro. Também é possível colocar imagem como background, conforme o exeplo abaixo.</p> <br>
+
+            <img src="imagens/menu-vertical.png" alt="menu-vertical"> <br>
+
+            <h3>No CSS externo</h3> <br>
+
+            <img style="max-width: 600px;" src="imagens/css-menu-vertical.png" alt="css-menu-vertical"> <br>
+
+            <h3>Resultado</h3> <br>
+
+            <img src="imagens/resultado-menu-vertical.png" alt="resultado-menu-vertical"> <br>
+
+            <p>Percebeu que o design fica bem mais moderno? Agora é sua vez de testar!</p> <br>
+
+            <h3>Media Query</h3> <br>
+
+            <p>Uma media query consiste de um media type e pelo menos uma expressão que limita o escopo das folhas de estilo usando media features, tal como largura, altura e cor. Media queries, adicionadas no CSS3, deixam a apresentação do conteúdo adaptado a uma gama especifica de dispositivos não precisando mudar o conteúdo em si. <br><br>
+            
+            Para utilizar o media query iremos fazer um flexbox(aula 6), criando o container que é a div principal e seus itens que estão numa div também. Vejamos o código abaixo.</p> <br>
+
+            <img src="imagens/media-query.png" alt="media-query"><br>
+
+            <h3>No CSS externo</h3> <br>
+
+            <img src="imagens/css-media-query.png" alt="css-menu-media-query"> <br>
+
+            <h3>Resultado</h3> <br>
+
+            <img src="imagens/resultado-media-query.png" alt="resultado-media-query"> <br>
+
+            <h3>Adicionando responsividade</h3> <br>
+
+            <p>Design Responsivo é uma técnica de estruturação HTML e CSS, que consiste em adaptar o site ao browser do usuário sem que seja necessário definir várias folhas de estilos especíificaspara cada resolução, ou seja, é um tipo de design onde o layout fica fluído e variante de acordo com a resolução do usuário. <br><br>
+
+            Esse tipo de design responsivo teve origem em 2010 com o objetivo de melhorar a experiência de navegação dos usuários de páginas web. Segue o exemplo no CSS do código exemplificado anteriormente.</p> <br>
+
+            <img src="imagens/responsividade.png" alt="responsividade"> <br>
+
+            <p>Muitos desenvolvedores criam seus websites com códigos sujos, muitas vezes gerados automaticamente por softwares e IDEs que ajudam os iniciantes na criação dos projetos. <br><br>
+
+            É extremamente importante que nessa nova fase de sites responsivos, que os desenvolvedores façam seus códigos limpos e que escrevam apenas códigos que serão usados de fato. Faça códigos o mais simples possível, evitando exageros desnecessários. <br><br>
+
+            Para designs responsivos você precisa ter foco nas condições de width, onde dependendo da largura do conteúdo de seu cliente, ou seja, dependendo da resolução do dispositivo que seu cliente estiver acessando o website, irá ser carregada uma folha de estilos diferente ou uma folha de estilo específica. <br><br>
+
+            Para entender um pouco mais sobre responsividade, acesse o <a href="https://www.devmedia.com.br/responsive-design-dicas-para-tornar-seu-site-acessivel-em-qualquer-resolucao/28316">site</a>.
+        
+            Chegamos ao fim da sexta aula do curso e quarta aula de tech, foram muitas informações mas calma que no fim tudo fará sentido. O segredo é praticar. <br><br>
+
+            <strong>Bons estudos!</strong></p>
+
+        </div>
+    </div>
+
+    <br><br>
+
+    <footer>
+        <p>Autor: Programadores Cariocas<br>
+        <a href="email:programadorescariocas@gmail.com">programadorescariocas@gmail.com</a></p>
+    </footer>
+    
+</body>
+</html>
